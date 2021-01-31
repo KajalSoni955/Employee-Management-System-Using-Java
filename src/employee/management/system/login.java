@@ -85,7 +85,7 @@ class login  implements ActionListener{
                 
                 //every frame is set to set visible false by default, have to set it to true or false
                 
-               // new details().f.setVisible(true);
+                new details().f.setVisible(true);
                 f.setVisible(false);
             }else{
                 JOptionPane.showMessageDialog(null, "Invalid login");
